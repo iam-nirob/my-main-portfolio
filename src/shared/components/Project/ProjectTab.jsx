@@ -90,7 +90,7 @@ const ProjectTab = ({ projects }) => {
       {location.pathname === "/" ? (
         <Link
           className="mx-auto mb-20 mt-14 flex w-44 cursor-pointer items-center justify-center rounded-sm bg-[#55E6C1] py-2 text-center font-semibold text-black duration-300 hover:scale-95 hover:bg-[#252425] hover:text-[#55E6C1]"
-          to="https://github.com/nirobsarker012"
+          to="https://github.com/iam-nirob"
         >
           View All Projects{" "}
           <span className="ml-2">
@@ -100,7 +100,7 @@ const ProjectTab = ({ projects }) => {
       ) : (
         <Link
           className="mx-auto mb-20 mt-14 flex w-40 cursor-pointer items-center justify-center rounded-sm bg-[#55E6C1] py-2 text-center font-semibold text-black duration-300 hover:scale-95 hover:bg-[#252425] hover:text-[#55E6C1]"
-          to="https://github.com/nirobsarker012"
+          to="https://github.com/iam-nirob"
           target="_blank"
         >
           Explore More

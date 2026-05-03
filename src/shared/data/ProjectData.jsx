@@ -98,4 +98,15 @@ export const ProjectData = [
     technologies: "HTML, CSS",
     category: "frontend",
   },
+  {
+    id: 11,
+    img: "/project_img/fradie-desktop.png",
+    project_name: "Fradie",
+    live: "https://ns-fradie.vercel.app",
+    client: "https://github.com/iam-nirob/fradie-ecommerce",
+    server: "https://github.com/iam-nirob/fradie-backend",
+    technologies:
+      "React.js, TailwindCSS, JavaScript, Node.js, Express.js, MongoDB, Better Auth, JWT, TansStack, Axios",
+    category: "full-stack",
+  },
 ];
