@@ -1,6 +1,17 @@
 export const ProjectData = [
   {
     id: 1,
+    img: "/project_img/fradie-desktop.png",
+    project_name: "Fradie",
+    live: "https://ns-fradie.vercel.app",
+    client: "https://github.com/iam-nirob/fradie-ecommerce",
+    server: "https://github.com/iam-nirob/fradie-backend",
+    technologies:
+      "React.js, TailwindCSS, JavaScript, Node.js, Express.js, MongoDB, Better Auth, JWT, TansStack, Axios",
+    category: "full-stack",
+  },
+  {
+    id: 2,
     img: "/project_img/kobayashi-res.png",
     project_name: "Restaurant Management",
     live: "https://ns-restaurant-management.netlify.app/",
@@ -11,7 +22,7 @@ export const ProjectData = [
     category: "full-stack",
   },
   {
-    id: 2,
+    id: 3,
     img: "/project_img/plant-care.png",
     project_name: "Plant Care - E-Commerce",
     live: "https://ns-plant-care.netlify.app/",
@@ -21,7 +32,7 @@ export const ProjectData = [
     category: "full-stack",
   },
   {
-    id: 3,
+    id: 4,
     img: "/project_img/gaming.png",
     project_name: "App Store",
     live: "https://ns-app-store.netlify.app/",
@@ -29,16 +40,6 @@ export const ProjectData = [
     server: "https://github.com/nirobsarker012/app-store-client",
     technologies: "React.js, Node.js, Express.js",
     category: "full-stack",
-  },
-
-  {
-    id: 4,
-    img: "/project_img/law-bd.png",
-    project_name: "Law BD",
-    live: "https://ns-lawyer-dev.netlify.app/",
-    client: "https://github.com/nirobsarker012/law-bd",
-    technologies: "React JS, Tailwindcss, Javascript ",
-    category: "frontend",
   },
   {
     id: 5,
@@ -97,16 +98,5 @@ export const ProjectData = [
     client: "https://github.com/nirobsarker012/practice",
     technologies: "HTML, CSS",
     category: "frontend",
-  },
-  {
-    id: 11,
-    img: "/project_img/fradie-desktop.png",
-    project_name: "Fradie",
-    live: "https://ns-fradie.vercel.app",
-    client: "https://github.com/iam-nirob/fradie-ecommerce",
-    server: "https://github.com/iam-nirob/fradie-backend",
-    technologies:
-      "React.js, TailwindCSS, JavaScript, Node.js, Express.js, MongoDB, Better Auth, JWT, TansStack, Axios",
-    category: "full-stack",
   },
 ];
